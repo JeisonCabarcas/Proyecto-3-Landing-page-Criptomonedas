@@ -99,6 +99,7 @@ main {
 }
 
 .main-intercambio-monedas {
+  
   width: 100%;
   height: auto;
   padding-top: 80px;
@@ -477,7 +478,7 @@ main {
 /*Slider tarjetas*/
 .planes-container-slider{
   display: flex;
-  height: 316px;
+  height: 330px;
   overflow-x:scroll ;
   overscroll-behavior-x: contain;
   scroll-snap-type:x proximity;
@@ -509,4 +510,11 @@ footer section ul li a{
   
   text-decoration: none;
   color: var(--just-white);
+  }
+  .main-tablas{
+    display: flex;
+    height: 380px;
+    overflow-x:scroll ;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
   }
